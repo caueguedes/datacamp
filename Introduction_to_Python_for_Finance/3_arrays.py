@@ -8,3 +8,9 @@ transposed = np.transpose(nd_array)
 # methods()
 transposed.shape
 transposed.size
+np.mean(prices)
+np.std(prices)
+
+np.arange(1, 10, 2)
+
+bollean_prices = prices_array < np.mean(prices)
